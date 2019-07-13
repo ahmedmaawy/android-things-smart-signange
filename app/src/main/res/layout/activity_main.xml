@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/ThermometerImageView"
+        android:layout_width="186dp"
+        android:layout_height="163dp"
+        app:srcCompat="@drawable/hot_thermometer_guage"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <TextView
+        android:id="@+id/temperatureTextView"
+        android:layout_width="140dp"
+        android:layout_height="162dp"
+        android:text="30"
+        android:textSize="108sp"
+        tools:layout_editor_absoluteX="318dp"
+        tools:layout_editor_absoluteY="108dp" />
+
+    <TextView
+        android:id="@+id/TemperatureTextViewMetric"
+        android:layout_width="141dp"
+        android:layout_height="159dp"
+        android:text="C"
+        android:textSize="108sp"
+        tools:layout_editor_absoluteX="478dp"
+        tools:layout_editor_absoluteY="107dp" />
+</LinearLayout>
